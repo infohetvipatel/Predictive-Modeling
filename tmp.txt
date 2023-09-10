@@ -1,0 +1,111 @@
+What sort of hypotheses have you formed about the data?
+
+Hypothesis:
+employee with high city development index are more likely to churn
+employee with large company size are less likely to churn
+
+
+
+
+
+------------------------------------------------------------------------
+
+Which attributes seem promising for further analysis? 
+
+
+
+ss
+
+
+
+--------------------------------------------------------------------------
+Have your explorations revealed new characteristics about the data? 
+
+new characteristics:
+employee in company size greater than 1000 churn less
+employee who have not enrolled in full time course churn more
+
+---------------------------------------------------------------------------
+How have these explorations changed your initial hypothesis? 
+
+First hypothesis is proved wrong while second seems to be right
+
+
+
+------------------------------------------------------------------------
+Can you identify particular subsets of data for later use? 
+
+(city_development_index,target) & (company_size,target)
+
+--------------------------------------------------------------------------------------
+Take another look at your data mining goals. Has this exploration altered the goals?
+
+No our goal still remains the same.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Have you identified missing attributes and blank fields? If so, is there meaning behind such missing values? 
+
+There were some blank values, white spaces initially but after data cleaning we have no such missing values
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Are there spelling inconsistencies that may cause problems in later merges or transformations? 
+
+No such inconsistencies have been found
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Have you explored deviations to determine whether they are "noise" or phenomena worth analyzing further? 
+
+Though there were some outliars initially but after performing data cleaning, there is no noisy data found
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Have you conducted a plausibility check for values? Take notes on any apparent conflicts (such as teenagers with high income levels). 
+
+employee having relevent experience churn more 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Have you considered excluding data that has no impact on your hypotheses? 
+
+yes, city column has large number of missing values so we have excluded that
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Are the data stored in flat files? If so, are the delimiters consistent among files? Does each record contain the same number of fields?
+
+yes the data is stored in flat files and the delimiters are consistent.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+---------Data Cleaning---------------
+In Data Cleaning we have performed the following:
+
+remove outliars
+remove blanks,null,missing values
+remove field wiyh too many missing values
+
+
+
+
+
+
+
+
+
+
+
+
